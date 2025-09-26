@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | Disney+</title>
+    <script src="https://kit.fontawesome.com/d3d62a63e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/style.min.css">
+</head>
+
+<body>
+    <main>
+        <div id="main-picture">
+            <div id="main-picture-gradient">
+
+            </div>
+        </div>
+        <header>
+            <nav>
+                <a href="../index.html">
+                    <div id="logo" class="replace"></div>
+                </a>
+                <ul>
+                    <li><a href="#">sign in</a></li>
+                    <li><a href="#">create account</a></li>
+                    <li><a href="#">films</a></li>
+                    <li><a href="#">lists</a></li>
+                    <li><a href="#">members</a></li>
+                    <li><a href="#">journal</a></li>
+                </ul>
+                <fieldset id="busca">
+                    <form action="busca.html" method="get">
+                        <input type="text" name="search" id="search" />
+                        <button type="submit" id="btn-search"><i class="fas fa-search"></i></button>
+                    </form>
+                </fieldset>
+            </nav>
+        </header>
+        <section class="details">
+            <div>
+                <img class="poster" width="230" height="345"></img>
+            </div>
+            <div>
+                <div>
+                    <h1 class="nome"></h1>
+                    <p class="info">
+                        <small class="ano"></small>
+                        Dirigido por
+                        <span class="diretor"></span>
+                    </p>
+                </div>
+                <p class="detalhes"></p>
+                <div class="cast"></div>
+            </div>
+            <div>info value</div>
+        </section>
+    </main>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/config.js"></script>
+    <script src="../assets/js/details.js"></script>
+</body>
+
+</html>

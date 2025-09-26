@@ -1,0 +1,61 @@
+@import "global";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Source Serif";
+
+  background-color: $color-dark;
+  color: $color-light;
+}
+
+main {
+  width: 1200px;
+
+  position: relative;
+
+  #main-picture {
+    height: 675px;
+    width: 100%;
+
+    z-index: -1;
+
+    position: absolute;
+    top: 0;
+
+    #main-picture-gradient {
+      height: 100%;
+      width: 100%;
+
+      background: $bg-gradient;
+    }
+  }
+}
+
+section.details {
+  width: 950px;
+  margin-top: 400px;
+  margin: 400px auto 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .poster {
+    border-radius: $round-pill-radius;
+  }
+}
+
+section#search-results {
+  background: $img-bg-standard;
+}
+
+.replace {
+  background: url(../images/sprite.svg) no-repeat;
+  background-size: 800px 1020px;
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+}
