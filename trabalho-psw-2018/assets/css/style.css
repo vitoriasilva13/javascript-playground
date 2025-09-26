@@ -1,0 +1,184 @@
+div{
+  border-radius: 10px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../img/back2.png");
+  background-size:5%;
+}
+.largura{
+  width:960px;
+}
+.topo{
+  margin-top: 20px;
+  height:200px;
+  background-image:url("../img/top.png");
+  background-size: 960px 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px dashed white;
+}
+.logo{
+  background-image: url("../img/logo.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width:200px;
+  height: 180px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.menu{
+  margin-left: -20px;
+  width:730px;
+  float: left;
+  margin-top: 40px;
+  margin-right: 15px;
+}
+.menu li{
+  list-style-type: none;
+  margin:15px;
+  float: left;
+  padding: 10px;
+}
+.menu a{
+  color: white;
+  font-family: 'IM Fell English SC', serif;
+  text-decoration: none;
+  font-size: 34px;
+}
+.menu a:hover{
+  color: #4d0000;
+}
+.menu li:hover{
+  background-image: url("../img/li.png");
+  background-position: center;
+  border-radius: 3px;
+}
+.content{
+  width:915px;
+  background-color: white;
+  margin-top: 10px;
+  border: 2px dashed #4d0000;
+  text-align: justify;
+  padding: 0 20px 0 20px;
+}
+.contenthome{
+  height:2100px;
+}
+.contentelenco{
+  height:6600px;
+}
+.contentpremios{
+  height:1715px;
+}
+.contenttemporadas{
+  height:5750px;
+}
+.rodape{
+  margin-top: 10px;
+  height:190px;
+  background-image:url("../img/top.png");
+  background-size: 960px 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px dashed white;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.menurodape{
+  margin-left: -20px;
+  font-size: 20px;
+  font-family: 'IM Fell English SC', serif;
+}
+.menurodape li{
+  list-style-type: none;
+}
+.menurodape a{
+  color: white;
+}
+.ndc{
+  position: relative;
+  bottom:-10px;
+  font-family: 'IM Fell English SC', serif;
+  color: white;
+}
+h1{
+  font-family: 'IM Fell English SC', serif;
+  font-size: 40px;
+  color: #4d0000;
+}
+h2, dt, th{
+  font-family: 'IM Fell English SC', serif;
+  font-size: 28px;
+  color: #4d0000;
+}
+tr:nth-child(odd) {
+    background-color: rgb(230, 0, 0,75%);
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+hr{
+  border: 0;
+  border-bottom: 2px dashed #4d0000;
+}
+dl{
+  margin-left: 15px;
+}
+dd, td{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  align:left;
+}
+.sis, .tate, iframe{
+  border:1px dashed #4d0000;
+  border-radius: 3px;
+}
+.tate{
+  width:40%;
+  float:right;
+  margin:15px 5px 0px 15px;
+}
+.sis{
+  float:left;
+  width:40%;
+  margin: 0px 15px 0px 5px;
+}
+.contentpremios img{
+  height: 300px;
+  margin-top: 10px;
+  border: 1px dashed #4d0000;
+  border-radius: 3px;
+}
+.contenttemporadas img{
+  height:300px;
+  float:left;
+  margin: 20px 15px 0 10px;
+  border: 1px dashed #4d0000;
+}
+.contentelenco img{
+  height: 200px;
+}
+table,td {
+    border: 1px dashed rgb(230, 0, 0);
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+table{
+  width:100%;
+}
+pre{
+  text-align: justify;
+  margin-left:5px;
+  margin-right: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+.contenthome a{
+  color: #4d0000;
+}
