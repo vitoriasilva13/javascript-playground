@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            border-radius: 10px;
+        }
+        body {
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        #mobile-view {
+            height: 100%;
+            width: 450px;
+            background-color: #1d1d1d;
+            padding: 10px;
+            padding-top: 30px;
+        }
+        #grid-view {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 100px);
+            grid-template-rows: repeat(auto-fill, 100px);
+            gap: 10px;
+            height: 100%;
+        }
+        .draggable {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            cursor: grab;
+            user-select: none;
+            grid-column: span 1;
+            height: 25%;
+        }
+        .grid-cell {
+            border: 1px dashed #ccc;
+        }
+        .btn {
+            background-color: #292929;
+            color: white;
+            padding: 5px 10px;
+            width: fit-content;
+        }
+        #btns {
+            display: flex;
+            justify-content: space-between;
+        }
+        #profile {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            margin-bottom: 2rem;
+        }
+        #profile img {
+            height: 100px;
+            width: 100px;
+        }
+        #playing-now {
+            background-color: #292929;
+            padding: 5px;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #tab {
+            background-color: black;
+            width: 100%;
+            padding: 5px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        #tab span {
+            background-color: #292929;
+            padding: 0 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="mobile-view">
+        <div id="btns">
+            <div class="btn">
+                >
+            </div>
+            <div class="btn">
+                @
+            </div>
+        </div>
+        <div id="profile">
+            <img
+                src="https://api.dicebear.com/9.x/avataaars-neutral/svg?seed=Alexander"
+                alt="avatar" />
+            <h3>you.</h3>
+            <p>@git</p>
+            <div id="playing-now">Opalite <span>Taylor Swift</span></div>
+            <small>Tocando agora em Spotify</small>
+            <div id="tab">Recentes <span>Space</span></div>
+        </div>
+        
+        <div id="grid-view">
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+            <div class="grid-cell"></div>
+        </div>
+    </div>
+</body>
+</html>
